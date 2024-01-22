@@ -21,9 +21,9 @@ The objective of this project is to create a sample version of a Solar Project M
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/sagarhedaoo/The-Jira-Squad.git`
-2. Navigate to the project directory: `cd The-Jira-Squad`
-3. Open the project in your preferred code editor
-4. Add your mongoDB configurations in '/config/mongoConnection.js'
-5. Run the 'npm install' command
-6. Run the 'npm start' command
+1. Clone the repository: `git clone https://github.com/khusboo30/The-Jira-Squad.git`
+3. Navigate to the project directory: `cd The-Jira-Squad`
+4. Open the project in your preferred code editor
+5. Add your mongoDB configurations in '/config/mongoConnection.js'
+6. Run the 'npm install' command
+7. Run the 'npm start' command
