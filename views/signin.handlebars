@@ -1,0 +1,48 @@
+<body>
+  
+  <div>
+   <p class="welcome" text-align="center">Welcome back!</p>
+  <p class="welcome">Please Login Here</p>
+   
+    <form id="signinForm" method="post" action="/signin">
+
+     
+
+      <p class="noPost">Username :</p>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="username@gmail.com"
+      />
+      <br />
+      <p class="noPost">Password :</p>
+      <input
+        type="password"
+        class="form-control"
+        id="signinPassword"
+        name="password"
+        placeholder="Password Here"
+      />
+      <br />
+
+      <div class="form-group">
+        <button type="submit" class="btn AllButton">Login</button>
+      </div>
+      <div class="form-group">
+        <br>
+      <button   class="btn AllButton" href="http://localhost:3000/signup">Register</button>
+    </div>
+
+      {{#unless status}}
+        <p class="wrongMsg">{{message}}</p>
+
+      {{/unless}}
+
+    </form>
+  </div>
+
+ 
+
+</body>
